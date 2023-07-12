@@ -1,0 +1,157 @@
+header, .left, .center, .right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.left{
+    width: 200px;
+}
+
+.center{
+    width: 300px;
+    gap: 30px;
+}
+
+.right{
+    gap: 5px;
+}
+.left svg{
+    cursor: pointer;
+    border-radius: 50%;
+    padding: 4%;
+}
+
+.left svg:hover{
+    background-color: rgb(218, 222, 227);
+}
+
+main{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.photo{
+    background-image: url("https://lh3.googleusercontent.com/hr_crs_themes/AJ9_ozlyhXpVuULjhAWzdCjs8sx8Vt0wkJcdgQ7WTQSjiGsaxfOEHL1OqZhtycwPvjoHLUAgiOE199vXiWAOtV8PqiCFLQmrLTLDAKIlscs6V46KeYS-Af0eGQ=s1280");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    margin-bottom: 30px;
+}
+
+.photo p{
+    position: absolute;
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+.contenido{
+    display: flex;
+    gap: 30px;
+}
+
+.izq{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    width: 230px;
+}
+
+.codigo, .entregas{  
+    border: solid 1px rgba(28, 28, 28, 0.422);
+    border-radius: 8px;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    fill: rgb(0, 66, 146) ;
+}
+
+.codigo p{
+    color: rgb(0, 66, 146);
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.izq a{
+    color: rgb(0, 66, 146);
+    text-decoration: none;
+    align-items: end;
+    font-weight: 600;
+}
+
+.der{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 5px;
+    padding-top: 0;
+}
+
+.der a .tareas, img{
+    gap: 20px;
+}
+
+a img{
+    border-radius: 50%;
+}
+
+.der a{
+    text-decoration: none;
+    color: rgba(67, 68, 68, 0.575);
+}
+
+#enlace{
+    display: flex;
+    align-items: center;
+    border: rgba(128, 128, 128, 0.266) solid 1px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 20px;
+    height: 70px;
+    margin-bottom: 30px;
+    width: 98%; 
+    gap: 20px;
+    box-shadow: 2px 1px 5px  ;
+}
+.tareas{
+    display: flex;
+    align-items: center;
+    border: rgba(128, 128, 128, 0.266) solid 1px;
+    border-radius: 10px;
+    padding: 3px;
+    padding-left: 20px;
+    height: 70px;
+    margin-bottom: 30px;
+    width: 98%;
+    justify-content: space-between;
+}
+
+#svg-p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    fill: aliceblue;
+}
+
+#svg-p svg{
+    background-color: rgb(0, 66, 146);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    padding: 5px;
+}
